@@ -6,11 +6,9 @@ elif(h2 < h1):
 else:
     h = 24
 
-if(m2 > m1):
+if(m2 >= m1):
     m = m2-m1
 elif(m2 < m1):
     m = 60 - (m1-m2)
     h -= 1
-else:
-    m = 0
 print(f"O jogo durou {h} hora(s) e {m} minuto(s).")
